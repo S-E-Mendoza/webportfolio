@@ -1,0 +1,21 @@
+
+body#bgcolor {
+	background-color: #138086;
+}
+
+#tabs {
+	background-color: #a8d5e5;
+	color: #0f3c4c;
+}
+
+#fcolor{
+	color: #0f3c4c;
+}
+
+#ffamily1{
+	font-family: 'Kavoon', cursive;
+}
+
+#ffamily2{
+	font-family: 'Open Sans', sans-serif;
+}
