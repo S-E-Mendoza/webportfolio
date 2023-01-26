@@ -1,6 +1,6 @@
 
-body#bgcolor {
-	background-color: #138086;
+body#bg {
+	background-image: url('./asset/images/screen.gif');
 }
 
 #tabs {
@@ -18,4 +18,9 @@ body#bgcolor {
 
 #ffamily2{
 	font-family: 'Open Sans', sans-serif;
+}
+
+#box-color{
+	background-color: #138086;
+
 }
