@@ -24,3 +24,7 @@ body#bg {
 	background-color: #138086;
 
 }
+
+html { 
+scroll-behavior: smooth; 
+}
