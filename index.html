@@ -17,46 +17,52 @@
 
 	<body id="bg" class="img-fluid">
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top " id="tabs">
-		  <a class="navbar-brand" href="./index.html">
-		  	<img src="./asset/icons/mm.ico">
-		  </a> 
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNav">		  	
-			  	<ul class="navbar-nav ml-auto">
-			  		<li class="nav-item">
-			  			<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-			  		</li>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top " id="tabs">
 
-			  		<li class="nav-item">
-			  			<a class="nav-link" href="#middle1">About Me</a>
-			  		</li>
-			  		
-			  		<li class="nav-item">
-			  			<a class="nav-link" href="#middle2">Projects</a>
-			  		</li>
-			  		
-			  		<li class="nav-item">
-			  			<a class="nav-link" href="#pre-footer">Contact</a>
-			  		</li>
-			  	</ul>		  
-		  </div>
-		</nav>
+			  <a class="navbar-brand" href="./index.html">
+			  	<img src="./asset/icons/mm.ico">
+			  </a> 
+
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarNav">		  	
+				  	<ul class="navbar-nav mr-auto">
+				  		<li class="nav-item">
+				  			<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+				  		</li>
+
+				  		<li class="nav-item">
+				  			<a class="nav-link" href="#middle1">About Me</a>
+				  		</li>
+				  		
+				  		<li class="nav-item">
+				  			<a class="nav-link" href="#middle2">Projects</a>
+				  		</li>
+				  		
+				  		<li class="nav-item">
+				  			<a class="nav-link" href="#pre-footer">Contact</a>
+				  		</li>
+				  	</ul>		  
+			  </div>
+
+			</nav>
+		</div>
 		<!-- Navbar End -->
 
 		<!-- Profile Section Start -->
-		<section>
-			<div class="container-fluid d-block-flex mt-5 min-vh-100">
-				<div class="mt-5 pt-5 row-cols-2 flex-columns d-flex justify-content-around align-items-center text-light">				
-						<div class="pt-5 order-md-1 order-sm-2 w-50">
-							<h1 class="offset-md-4 pt- mt-5" id="ffamily1">Sharmaine E. Mendoza</h1>
-							<h3 class="offset-md-4 w-75" id="ffamily2">Educator | Full Stack Developer</h3>
-							<h5 class="offset-md-4 w-50">Hi! I am <em><strong>Sharmaine Mendoza</strong></em>, and welcome to my page!</h5>
+		<section class="container">
+			<div class="d-block-flex mt-5">
+				<div class="mt-3 pt-5 row flex-columns d-block-flex justify-content-center align-items-center text-light">		
+						<div class="mx-auto w-auto pt-3 col-xs-12 col-md-6 order-xs-last order-md-first text-center">
+							<h1 class="pt-3 mt-3" id="ffamily1">Sharmaine E. Mendoza</h1>
+							<h3 class="w-auto" id="ffamily2">Educator | Full Stack Developer</h3>
+							<h5 class="w-auto">Hi! I am <em><strong>Sharmaine Mendoza</strong></em>, and welcome to my page!</h5>
 						</div>
-						<div class="pt-5 mt-4 order-md-2 order-sm-1">
-							<img src="./asset/images/profile.jpg" width="350" class="offset-md-3 offset-sm-0 rounded-circle">
+						<div class="mx-auto w-auto pt-3 mt-3 col-xs-12 col-md-6 order-xs-frist order-md-last">
+							<img src="./asset/images/profile.jpg" width="350px" class="img-fluid rounded-circle">
 						</div>
 				</div>
 				<span class="aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
@@ -69,8 +75,8 @@
 		<!-- Mid1 Section Start -->
 		<<!-- 1st Column -->
 		<section class="pt-5" id="middle1">
-			<div class="container-fluid text-light bg-secondary text-center min-vh-100">
-				<h2 class="pt-5 text-center text-light" id="tabs ffamily1">About Me</h2>
+			<div class="container-fluid text-light text-center min-vh-100" id="tabs">
+				<h2 class="pt-5 text-center text-light" id="ffamily1">About Me</h2>
 				<div class="mx-md-1 mt-5 pt-5 row justify-content-around">
 				<div class="card col-xl-5 col-sm-12 mb-5 order-sm-1">
 					<!-- 1st Carousel Start -->
@@ -164,12 +170,9 @@
 		<!-- Mid1 Section End -->
 
 		<!-- Mid2 Section Start -->
-		<section id="middle2" class="d-block-flex inline-flex mt-5 mb-5">
+		<section id="middle2" class="d-block-flex mt-5 mb-5">
 			<h2 id="ffamily1" class="text-light text-center pt-3">Projects</h2>
-			<div class="offset-md-3 w-50 embed-responsive embed-responsive-16by9">
-			  <iframe class="embed-responsive-item" src="./asset/video/web-design.mp4" allowfullscreen></iframe>
-			</div>
-			
+			<video class="mx-auto w-75" src="./asset/video/web-design.mp4" autoplay muted>
 		</section>
 		<!-- Mid2 Section End -->
 

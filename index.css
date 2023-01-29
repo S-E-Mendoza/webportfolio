@@ -28,3 +28,10 @@ body#bg {
 html { 
 scroll-behavior: smooth; 
 }
+
+video{
+	width: 100% !important;
+	height: auto !important;
+	display: flex;
+  	justify-content: center;
+}
